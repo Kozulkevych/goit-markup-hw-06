@@ -366,7 +366,6 @@ body {
 
 .work-title {
   color: var(--secondary-ligh-text-color);
-  font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
   text-align: center;
