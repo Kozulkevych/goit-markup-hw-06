@@ -721,10 +721,14 @@ body {
 .newsletter-join {
   display: flex;
 }
-.newsletter-input {
+.newsletter-form {
   display: flex;
   width: 358px;
   height: 50px;
+  margin-right: 12px;
+}
+
+.newsletter-input {
   background-color: transparent;
   color: var(--secondary-ligh-text-color);
 
@@ -733,11 +737,12 @@ body {
   border-radius: 4px;
   outline: none;
 
+  width: 100%;
   padding: 15px 16px;
-  margin-right: 12px;
-
+  
   transition: border-color 250ms var(--timing-function);
 }
+
 .newsletter-input:focus {
   border-color: var(--accent-color);
 }
@@ -877,7 +882,7 @@ body {
   display: flex;
   top: 11px;
   left: 12px;
-  transform: translateY(100%);
+  transform: translateY(160%);
   width: 18px;
   height: 18px;
   fill: var(--title-text-color);
@@ -906,7 +911,7 @@ body {
   letter-spacing: 0.01em;
 }
 
-
+  
 .label-policy {
   font-size: 14px;
   line-height: calc(24 / 14);
