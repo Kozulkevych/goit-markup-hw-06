@@ -325,6 +325,9 @@ body {
 }
 .features-icon {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
   height: 120px;
   background-color: var(--secondary-light-bg-color);
   border-radius: 4px;
@@ -361,7 +364,7 @@ body {
   margin-right: 30px;
 }
 
-.work-desc {
+.work-title {
   color: var(--secondary-ligh-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -982,6 +985,7 @@ body {
 
   transition: background-color 250ms var(--timing-function);
 }
+.modal-btn:hover,
 .modal-btn:focus {
   background-color: var(--bg-btn-color);
 }
